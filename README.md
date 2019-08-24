@@ -19,9 +19,13 @@
 
 ## Framework, Tools and Libraries
 •	Android Studio – 3.4
+
 •	Java – JRE (1.8.0)
+
 •	com.google.android:flexbox – 1.0.0 
+
 •	support-emoji-bundled – 28.0.0
+
 
 ## References
 [1] Emoji Compatibility  |  Android Developers. (n.d.). Retrieved June 16, 2019, from https://developer.android.com/guide/topics/ui/look-and-feel/emoji-compat
