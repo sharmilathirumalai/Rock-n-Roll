@@ -1,9 +1,8 @@
-# ROCK N ROLL
+## ROCK N ROLL
  
    Rock n Roll is an android application (Minimum API Level: 23) to play die game. The application has a scoreboard at top, set of die and controls at the bottom.
-   
-   
-   ![Alt text](app.jpeg)
+  
+ <img src="app.jpeg" width="200" height="320" alt="app preview">
  
 ## Functionalities
 1.	Rolling the die – The dice can be rolled by using the play button or by shaking the device. Additionally, the dice will start when the user touches it.
