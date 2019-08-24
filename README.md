@@ -24,8 +24,11 @@ Framework, Tools and Libraries
 
 ## References
 [1] Emoji Compatibility  |  Android Developers. (n.d.). Retrieved June 16, 2019, from https://developer.android.com/guide/topics/ui/look-and-feel/emoji-compat
+
 [2] File:Dice 1-6.svg. (n.d.). Retrieved June 16, 2019, from https://commons.wikimedia.org/wiki/File:Dice_1-6.svg
+
 [3] Saurel, S., & Saurel, S. (2017, June 08). Create a Roll Dice Game on Android with Shake Effect. Retrieved from https://android.jlelse.eu/create-a-roll-dice-game-on-android-with-shake-effect-527b14f0c492
+
 [4] Using the Accelerometer on Android. (n.d.). Retrieved June 16, 2019, from https://code.tutsplus.com/tutorials/using-the-accelerometer-on-android--mobile-22125
 
 
