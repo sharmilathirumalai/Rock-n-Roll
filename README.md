@@ -15,8 +15,9 @@
 4.	 Full screen – In order to avoid the distractions while playing, the application will launch in full screen mode.
 
 ## Device Feature
-Accelerometer – It is used to to start the play when the user shakes the device. The acceleration threshold is set to be 600ms in this application. I’ve chosen to facilitate shake feature by using Accelerometer, since the gyroscope tends the drain the battery.
-Framework, Tools and Libraries
+ Accelerometer – It is used to to start the play when the user shakes the device. The acceleration threshold is set to be 600ms in this application. I’ve chosen to facilitate shake feature by using Accelerometer, since the gyroscope tends the drain the battery.
+
+## Framework, Tools and Libraries
 •	Android Studio – 3.4
 •	Java – JRE (1.8.0)
 •	com.google.android:flexbox – 1.0.0 
@@ -30,6 +31,3 @@ Framework, Tools and Libraries
 [3] Saurel, S., & Saurel, S. (2017, June 08). Create a Roll Dice Game on Android with Shake Effect. Retrieved from https://android.jlelse.eu/create-a-roll-dice-game-on-android-with-shake-effect-527b14f0c492
 
 [4] Using the Accelerometer on Android. (n.d.). Retrieved June 16, 2019, from https://code.tutsplus.com/tutorials/using-the-accelerometer-on-android--mobile-22125
-
-
-
