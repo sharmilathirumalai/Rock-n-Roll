@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="die_width">60dp</dimen>
+    <dimen name="die_height">60dp</dimen>
+    <dimen name="diagonal_die_width">84dp</dimen>
+    <dimen name="diagonal_die_height">84dp</dimen>
+    <dimen name="die_margin">40dp</dimen>
+    <dimen name="die_marginTop">30dp</dimen>
+    <dimen name="score_board_margin">25dp</dimen>
+    <dimen name="button_dim">55dp</dimen>
+
+</resources>

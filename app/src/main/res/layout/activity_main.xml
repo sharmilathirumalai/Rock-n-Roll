@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#B3FFFFFF">
+
+        <TextView
+            android:id="@+id/score_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/score"
+            android:textAllCaps="true"
+            android:layout_marginTop="@dimen/score_board_margin"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/overall_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/score_label"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="@dimen/score_board_margin"
+            android:layout_marginStart="30dp"
+            android:text="@string/start_value"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/points_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/score_label"
+            android:textAlignment="viewStart"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roll_score"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_points"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/points_label"
+            android:layout_marginBottom="@dimen/score_board_margin"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/score_label"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_value"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/die_layout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center">
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rollDices"
+            android:layout_height="@dimen/button_dim"
+            android:layout_width="@dimen/button_dim"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="17dp"
+            android:background="@drawable/play_icon_round" />
+
+        <Button
+            android:id="@+id/replay"
+            android:layout_height="@dimen/button_dim"
+            android:layout_width="@dimen/button_dim"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="90dp"
+            android:background="@drawable/replay_icon_round" />
+
+        <Button
+            android:id="@+id/addDie"
+            android:layout_height="@dimen/button_dim"
+            android:layout_width="@dimen/button_dim"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="17dp"
+            android:background="@drawable/add_icon_round" />
+
+        <Button
+            android:id="@+id/removeDie"
+            android:layout_height="@dimen/button_dim"
+            android:layout_width="@dimen/button_dim"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/remove_icon_round" />
+
+    </LinearLayout>
+
+</LinearLayout>

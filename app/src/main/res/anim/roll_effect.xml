@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Reference: https://android.jlelse.eu/create-a-roll-dice-game-on-android-with-shake-effect-527b14f0c492-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:duration="60"
+        android:fromDegrees="-10"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:pivotX="50%"
+        android:pivotY="70%"
+        android:repeatCount="4"
+        android:repeatMode="reverse"
+        android:toDegrees="5" />
+
+    <translate
+        android:duration="60"
+        android:fromXDelta="-10"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:repeatCount="5"
+        android:repeatMode="reverse"
+        android:toXDelta="5" />
+</set>

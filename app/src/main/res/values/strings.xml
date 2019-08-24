@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rock n Roll</string>
+    <string name="roll">Roll</string>
+    <string name="add">Add</string>
+    <string name="score">Overall Score</string>
+    <string name="roll_score">Roll Points</string>
+    <string name="total">Total</string>
+    <string name="start_value">0</string>
+    <string name="start_points">0 0</string>
+    <string name="min_err">Minimum 1 die is required to play.</string>
+    <string name="max_err">Maximum 6 dice are only allowed  to play.</string>
+    <string name="msg_90">Kudos..!! You won  🎉</string>
+    <string name="msg_70">Good play..!!</string>
+    <string name="msg_gt_40">You\'re close to the winning point.</string>
+    <string name="msg_lt_40">Better luck next time.</string>
+
+</resources>
+
